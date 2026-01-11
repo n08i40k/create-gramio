@@ -388,7 +388,7 @@ createOrFindDir(projectDir)
 			type: "toggle",
 			name: "docker",
 			initial: "yes",
-			message: "Create Dockerfile + docker.compose.yml?",
+			message: "Create Dockerfile + docker-compose.yml?",
 		});
 
 		preferences.docker = docker;
